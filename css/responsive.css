@@ -13,6 +13,37 @@
 .menu ul li.follow {
        margin-top: 75px;
 }
+.banner-area{
+  background: none;
+}
+.single-banner {
+      flex-direction: column-reverse;
+}
+.banner-img {
+    width: 100%;
+    background: #fff;
+    }
+    .banner-text {
+    width: 100%;
+    padding-left: 40px; 
+
+}
+.blue {
+        font-size: 1rem;    
+}
+.pink {
+       font-size: 1rem; 
+       margin-bottom: 20px;   
+}
+.banner-text p {    
+    font-size: 1rem;   
+}
+.banner-text h2 {
+       font-size: 3.93rem;    
+}
+.banner-text h4 {
+        font-size: 2rem;
+}
 }
 
 
@@ -24,5 +55,17 @@
 }
 .menu {
     margin-top: 40px;
+}
+.single-banner {
+      flex-direction: column-reverse;
+}
+.banner-img {
+    width: 100%;
+    background: #fff;
+    }
+    .banner-text {
+    width: 100%;
+    padding-left: 120px; 
+
 }
 }
