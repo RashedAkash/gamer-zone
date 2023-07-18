@@ -22,6 +22,7 @@
 .banner-img {
     width: 100%;
     background: #fff;
+    padding: 0 40px;
     }
     .banner-text {
     width: 100%;
@@ -44,6 +45,27 @@
 .banner-text h4 {
         font-size: 2rem;
 }
+.videos-container {
+       grid-template-columns: repeat(1,1fr);
+    
+}
+.videos-title h2 {
+    font-size: 1.5rem;
+  
+}
+.videos-title p {
+      font-size: 14px;   
+}
+.single-videos {
+    padding: 0 40px;
+    margin-bottom: 20px;
+}
+.vedios-text p {
+       font-size: 1rem;
+        text-align: center;
+   
+}
+
 }
 
 
@@ -62,10 +84,23 @@
 .banner-img {
     width: 100%;
     background: #fff;
+    padding: 0 40px;
     }
     .banner-text {
     width: 100%;
     padding-left: 120px; 
 
 }
+.banner-area{
+  background: none;
+}
+.videos-container {
+    
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.banner-btn {
+      margin-bottom: 30px;
+}
+
 }
