@@ -1,11 +1,28 @@
 /* mobile device */
 @media screen and (max-width:576px) {
-  
+  .topbar-area {
+      flex-direction: column;
+}
+.menu ul {
+      flex-direction: column;
+      margin-top: 60px;
+}
+.menu ul li {
+      margin-top: 36px;
+}
+.menu ul li.follow {
+       margin-top: 75px;
+}
 }
 
 
 /* Tablet device */
 
 @media screen and (min-width:576px) and (max-width:992px){
-  
+  .topbar-area {
+      flex-direction: column;
+}
+.menu {
+    margin-top: 40px;
+}
 }
