@@ -12,6 +12,9 @@
 body{
   font-family: 'Work Sans', sans-serif;
 }
+img{
+
+}
 
 .container{
   max-width: 1440px;
@@ -19,19 +22,71 @@ body{
 }
 
 /* topbar-area  style */
-.topbar-area {}
-.logo{}
-.logo-img{}
-.logo-img img{}
+.topbar-area {
+  display: flex;
+  padding: 40px  0;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-img{
+  margin-right: 20px;
+}
+.logo-img img{
+  width: 5.375rem;
+height: 2.5rem;
+object-fit: cover;
+
+}
 .logo-text{}
-.logo-text h4{}
-.logo-text h4 span{}
+.logo-text h4{
+  color: #0B0223;
+font-size: 2.8125rem;
+  font-weight: 700;
+}
+
+.logo-text h4 span{
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 
 /* menu style */
 .menu{}
-.menu ul{}
-.menu ul li{}
-.menu ul li a{}
-.fa-youtube{}
-.fa-tiktok{}
+.menu ul{
+  display: flex;
+  align-items: center;
+}
+.menu ul li{
+  margin-left: 2rem;
+}
+.menu ul li.follow{
+  border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 16px 24px;
+
+}
+.menu ul li.follow >a{
+  display: flex;
+  align-items: center;
+}
+.menu ul li a{
+  color: #3C354F;
+font-size: 1.12rem;
+font-weight: 500;
+text-decoration: none;
+
+}
+
+.youtube{
+margin-left: 1.5rem;
+}
+.tik-tok{
+  margin-left: 16px;
+}
 
