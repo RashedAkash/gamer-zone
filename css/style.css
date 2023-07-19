@@ -368,8 +368,7 @@ font-weight: 600;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
-  gap: 100px;
+   gap: 100px;
 }
 .online-img {
   width: 50%;
