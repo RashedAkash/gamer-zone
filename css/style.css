@@ -232,7 +232,7 @@ line-height: 30px; /* 150% */
 .footer-link{}
 .footer-link ul{
   display: flex;
-  align-items: center;
+  align-content: center;
   justify-content: center;
 }
 .footer-link ul li{
@@ -252,7 +252,7 @@ text-decoration: none;
 .footer-menu ul{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 .footer-menu ul li{
   margin: 1.8rem;
