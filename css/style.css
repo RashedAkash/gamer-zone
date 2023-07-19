@@ -281,10 +281,11 @@ font-weight: 500;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding-bottom: 120px;
 }
 .single-games{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-right: 2rem;
   margin-top: 38px;
