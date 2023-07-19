@@ -230,7 +230,7 @@ border: 3px solid #F948B2;
 }
 .play-button{
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   display: flex;
   flex-direction: column;
