@@ -90,7 +90,34 @@ background-position: left;
 .footer-menu ul li {
     margin: 1rem;
 }
+.online-area {
+    flex-direction: column;
+}
+.online-img {
+    width: 100%;
+    padding: 0 10%;
+}
 
+.online-text {
+    width: 100%;
+    padding: 0 5%;
+    text-align: center;
+}
+.online-text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+.online-img .position-img {
+    width: 178px;
+    right: 2%;
+    
+}
+.online-area {
+    
+     padding:  0; 
+    
+}
 }
 
 
@@ -135,6 +162,18 @@ background-position: left;
 }
 .footer-menu ul li {
     margin: 1rem;
+}
+.online-area {
+    flex-direction: column;
+}
+.online-img {
+    width: 100%;
+   
+}
+.online-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
 }
 
 }

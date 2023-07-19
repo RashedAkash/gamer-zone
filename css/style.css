@@ -326,13 +326,18 @@ font-weight: 600;
   width: 60%;
   position: relative;
 }
-.online-img img{}
+.online-img img{
+  width: 100%;
+}
 .online-img .position-img {
     position: absolute;
-    bottom: -120px;
-    right: 20px;
+    width: 350px;
+    bottom: -20%;
+    right: -11%;
 }
-.online-img .position-img img{}
+.online-img .position-img img{
+
+}
 .online-text{
   width: 40%;
 }
