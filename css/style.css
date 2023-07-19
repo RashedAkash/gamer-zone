@@ -372,7 +372,7 @@ font-weight: 600;
   gap: 100px;
 }
 .online-img {
-  width: 60%;
+  width: 50%;
   position: relative;
 }
 .online-img img{
@@ -388,7 +388,7 @@ font-weight: 600;
 
 }
 .online-text{
-  width: 40%;
+  width: 50%;
 }
 .online-text h2{
   font-size: 3rem;
