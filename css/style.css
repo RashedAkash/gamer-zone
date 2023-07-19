@@ -220,3 +220,19 @@ font-size: 1.25rem;
 font-weight: 500;
 line-height: 30px; /* 150% */
 }
+
+/* footer-area style */
+.footer-area{}
+.footer-container{}
+.footer-link{}
+.footer-link ul{}
+.footer-link ul li{}
+.footer-link ul li a{}
+.footer-icon{}
+.footer-icon img{}
+.footer-menu{}
+.footer-menu ul{}
+.footer-menu ul li{}
+.footer-menu ul li a{}
+.copyright {}
+.copyright p{}
