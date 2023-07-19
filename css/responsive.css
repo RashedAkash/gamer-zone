@@ -93,6 +93,7 @@ background-position: center;
 }
 .online-area {
     flex-direction: column;
+    padding: 0;
 }
 .online-img {
     width: 100%;
@@ -114,11 +115,7 @@ background-position: center;
     right: 2%;
     
 }
-.online-area {
-    
-     padding:  0; 
-    
-}
+
 }
 
 
@@ -166,6 +163,7 @@ background-position: center;
 }
 .online-area {
     flex-direction: column;
+    padding: 0;
 }
 .online-img img {
     width: 100%;
