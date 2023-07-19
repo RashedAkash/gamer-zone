@@ -281,7 +281,7 @@ font-weight: 500;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .single-games{
   display: flex;
@@ -312,4 +312,45 @@ font-family: Work Sans;
 font-size: 1.25rem;
 font-weight: 600;
 
+}
+
+/* online-area style */
+.online-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  gap: 100px;
+}
+.online-img {
+  width: 60%;
+  position: relative;
+}
+.online-img img{}
+.online-img .position-img {
+    position: absolute;
+    bottom: -120px;
+    right: 20px;
+}
+.online-img .position-img img{}
+.online-text{
+  width: 40%;
+}
+.online-text h2{
+  font-size: 3rem;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+.online-text h2 span{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.online-text p{
+  margin-top: 24px;
+  color: #534C64;
+font-size: 1.12rem;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
 }
